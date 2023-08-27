@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/Faizan-Rasheed/static/css/main.6fa3b160.css",
+    "main.js": "/Faizan-Rasheed/static/js/main.7da8e28d.js",
+    "static/js/787.28cb0dcd.chunk.js": "/Faizan-Rasheed/static/js/787.28cb0dcd.chunk.js",
+    "static/media/portfolio-video.mp4": "/Faizan-Rasheed/static/media/portfolio-video.d1e279e6a53ec9c4a31e.mp4",
+    "static/media/videothumbnail.png": "/Faizan-Rasheed/static/media/videothumbnail.17da514e21a1b5c8a334.png",
+    "static/media/mainbg.webp": "/Faizan-Rasheed/static/media/mainbg.9620314bc0c42fc49293.webp",
+    "static/media/myimg.png": "/Faizan-Rasheed/static/media/myimg.bc8cd4a747216ce123ce.png",
+    "static/media/faizanImage.png": "/Faizan-Rasheed/static/media/faizanImage.2236128bf0d391fb83d8.png",
+    "static/media/php.png": "/Faizan-Rasheed/static/media/php.91d136a2b24e8d19f7a7.png",
+    "static/media/bootstrap.png": "/Faizan-Rasheed/static/media/bootstrap.1e140e3f135185506704.png",
+    "static/media/preLoader.gif": "/Faizan-Rasheed/static/media/preLoader.b51df3f3ec072548cb48.gif",
+    "static/media/js.png": "/Faizan-Rasheed/static/media/js.aa0a537b5946cfa2259b.png",
+    "static/media/react.png": "/Faizan-Rasheed/static/media/react.8341f43bfb13bd8279fb.png",
+    "static/media/nodejs.png": "/Faizan-Rasheed/static/media/nodejs.09ec4068203a06b5d7c0.png",
+    "index.html": "/Faizan-Rasheed/index.html",
+    "main.6fa3b160.css.map": "/Faizan-Rasheed/static/css/main.6fa3b160.css.map",
+    "main.7da8e28d.js.map": "/Faizan-Rasheed/static/js/main.7da8e28d.js.map",
+    "787.28cb0dcd.chunk.js.map": "/Faizan-Rasheed/static/js/787.28cb0dcd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6fa3b160.css",
+    "static/js/main.7da8e28d.js"
+  ]
+}
