@@ -1,0 +1,22 @@
+.myimg {
+    margin-left: 20%;
+}
+#about-ul {
+    list-style-type: none;
+
+}
+
+#about-ul li{
+    
+    margin-top: 2rem;
+    
+}
+#about-intro::after , #about-intro::before , #experties::after , #experties::before{
+    content: "---";
+    margin: 0 1rem;
+}
+.img-div{
+    display: flex;
+    justify-content: center;
+    margin-top: 3rem;
+}

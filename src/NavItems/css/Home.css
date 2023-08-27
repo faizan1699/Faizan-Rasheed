@@ -1,0 +1,181 @@
+.help-sec {
+    padding: 2rem 0rem;
+}
+
+#homeChild {
+    padding-top: 18%;
+    color: rgb(129, 1, 1) !important;
+}
+
+#autoText {
+    color: rgb(179, 20, 14);
+
+}
+
+.help-div {
+    background-color: rgb(253, 231, 225);
+}
+
+.myimg-poertfolio {
+    padding-top: 25%;
+    position: relative;
+}
+
+.container-image {
+    position: relative;
+
+}
+
+.moving-image {
+    position: absolute;
+    animation: moveImage 3s ease-in infinite;
+}
+
+@keyframes moveImage {
+
+    0%,
+    100% {
+        transform: translate(0, 5px);
+    }
+
+    50% {
+        transform: translate(10px, 0);
+    }
+}
+
+
+
+/* services */
+
+#services {
+    text-align: center;
+}
+
+#services h4::after,
+#services h4::before {
+    content: "_";
+    padding: 5px;
+
+}
+
+.services-child {
+    font-size: 1rem !important;
+    border: 4px solid rgb(54, 52, 82);
+    margin: 1vh;
+    border-radius: 1rem;
+
+}
+
+.services-child p {
+    font-size: 4vh;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    padding: 2rem 0rem;
+
+}
+
+.services-child:hover {
+    background-color: #ff713d;
+    transition: 0.5s;
+}
+
+
+/* testimonials */
+.card {
+    width: 20rem;
+    height: auto;
+    padding: 3rem 1rem;
+    margin: auto !important;
+    cursor: pointer;
+
+}
+
+.card:hover {
+    background-color: hsl(0, 3%, 25%);
+    color: #fff;
+    border-left: 10px solid red;
+    border-right: 10px solid red;
+    border-top: none;
+    border-bottom: none;
+    transition: 1s;
+    border-radius: 20px;
+}
+
+#cards {
+    margin: auto !important;
+}
+
+#cards-container {
+    background-color: rgba(0, 0, 0, 0.014);
+}
+
+.cards-img {
+    font-size: 3rem;
+    padding: 1rem 1.2rem;
+    color: #ffffff;
+    background-color: #b92222;
+    border-radius: 50%;
+    margin-bottom: 1rem;
+}
+
+.card-title {
+    font-weight: 700;
+    margin-bottom: 1rem;
+    font-size: 4vh;
+}
+
+
+@media (max-width: 768px) {
+
+    .card-2,
+    .card-3 {
+        margin-top: 1.5rem;
+    }
+
+    .card {
+        background-color: #ff6d6df5;
+        color: #fff;
+    }
+
+}
+
+/* Ratings */
+.raitings {
+    display: flex;
+    font-size: 24px;
+    
+}
+
+@keyframes pulse {
+
+    0%,
+    100% {
+        padding: 0px 0.8px;
+    } 50% {
+        
+        padding: 0 0.3px;
+    }
+}
+
+.raitings i {
+    position: relative;
+    color: gold;
+    padding: 0 3px;
+    animation: pulse 2s ease-in-out infinite;
+}
+
+
+.arrow-left {
+    color: #b92222 !important;
+    margin-right: 5px !important;
+}
+
+.raitings h4::after {
+    padding: 0 5px;
+}
+
+.raitings .disable {
+    color: #7777;
+}

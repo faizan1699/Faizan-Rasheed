@@ -1,0 +1,13 @@
+
+.sociallinks{
+    display: flex;
+    text-decoration: none;
+    font-size: 20px !important;
+    margin-left: 1rem;
+    margin-top: 1vh;
+    
+}
+.sociallinks p , .sociallinks i {
+font-weight: bold;
+
+}
