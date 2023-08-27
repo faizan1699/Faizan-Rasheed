@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { Routes, Route } from 'react-router-dom';
+import { Routes, Route, useLocation } from 'react-router-dom';
 import Home from './NavItems/Home';
 import Contact from './NavItems/Contact';
 import Navbar from './NavItems/Navbar';
@@ -15,10 +15,10 @@ import './NavItems/css/Contact.css';
 import './NavItems/css/Contact.css';
 import './NavItems/css/Footer.css';
 
-
 function App() {
   const [loading, setLoading] = useState(true);
   const [mode, setMode] = useState('light');
+  const location = useLocation();
 
   const togglemode = () => {
     if (mode === 'dark') {
@@ -47,9 +47,12 @@ function App() {
 
     return () => {
       document.removeEventListener('contextmenu', disableRightClick);
-      
     };
   }, []);
+
+  useEffect(() => {
+    window.scrollTo(0, 0); // Scroll to top whenever a new route is accessed
+  }, [location]);
 
   // login form
   const sendMessage = () => {
@@ -66,8 +69,7 @@ function App() {
         <>
           <Navbar navbrand="Faizan Rasheed" mode={mode} togglemode={togglemode} />
           <Routes>
-            <Route exact path="/" element={<Home />} />
-            <Route path="/Home" element={<Home />} />
+            <Route path="/" element={<Home />} />
             <Route path="/About" element={<About />} />
             <Route path="/Services" element={<Services />} />
             <Route path="/Contact" element={<Contact sendMessage={sendMessage}/>} />
