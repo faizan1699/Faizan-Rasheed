@@ -18,13 +18,13 @@ export default function Navbar(props) {
                 <Link className={`nav-link active  text-${props.mode === 'light' ? 'dark' : 'light'}`} aria-current="page" to="/Home">Home</Link>
               </li>
               <li className="nav-item">
-                <Link className={`nav-link active  text-${props.mode === 'light' ? 'dark' : 'light'}`} aria-current="page" to="/About">About</Link>
+                <Link className={`nav-link text-${props.mode === 'light' ? 'dark' : 'light'}`} aria-current="page" to="/About">About</Link>
               </li>
               <li className="nav-item">
-                <Link className={`nav-link active  text-${props.mode === 'light' ? 'dark' : 'light'}`} aria-current="page" to="/Services">Services</Link>
+                <Link className={`nav-link text-${props.mode === 'light' ? 'dark' : 'light'}`} aria-current="page" to="/Services">Services</Link>
               </li>
               <li className="nav-item">
-                <Link className={`nav-link active  text-${props.mode === 'light' ? 'dark' : 'light'}`} aria-current="page" to="/Contact">Contact</Link>
+                <Link className={`nav-link text-${props.mode === 'light' ? 'dark' : 'light'}`} aria-current="page" to="/Contact">Contact</Link>
               </li>
             </ul>
         <div className="mx-md-4 d-flex" onClick={props.togglemode}>
