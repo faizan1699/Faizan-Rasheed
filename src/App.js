@@ -41,7 +41,7 @@ function App() {
   useEffect(() => {
     const disableRightClick = (event) => {
       event.preventDefault();
-      alert('Right click Disabled  او پائی تینوں پتا نئییں ساڈا   ')
+      alert('Right click Disabled')
     };
     document.addEventListener('contextmenu', disableRightClick);
 
@@ -51,7 +51,7 @@ function App() {
   }, []);
 
   useEffect(() => {
-    window.scrollTo(0, 0); // Scroll to top whenever a new route is accessed
+    window.scrollTo(0, 0); 
   }, [location]);
 
   // login form
@@ -69,10 +69,10 @@ function App() {
         <>
           <Navbar navbrand="Faizan Rasheed" mode={mode} togglemode={togglemode} />
           <Routes>
-            <Route path="/" element={<Home />} />
-            <Route path="/About" element={<About />} />
-            <Route path="/Services" element={<Services />} />
-            <Route path="/Contact" element={<Contact sendMessage={sendMessage}/>} />
+            <Route path="/" element={Home} />
+            <Route path="/About" element={About} />
+            <Route path="/Services" element={Services} />
+            <Route path="/Contact" element={Contact sendMessage={sendMessage}}>
           </Routes>
           <Footer />
         </>
