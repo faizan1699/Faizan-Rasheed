@@ -72,7 +72,7 @@ function App() {
             <Route path="/" element={Home} />
             <Route path="/About" element={About} />
             <Route path="/Services" element={Services} />
-            <Route path="/Contact" element={Contact sendMessage={sendMessage}}>
+            <Route path="/Contact" element={Contact sendMessage={sendMessage}}/>
           </Routes>
           <Footer />
         </>
