@@ -67,12 +67,12 @@ function App() {
         </div>
       ) : (
         <>
-          <Navbar navbrand="Faizan Rasheed" mode={mode} togglemode={togglemode} />
+           <Navbar navbrand="Faizan Rasheed" mode={mode} togglemode={togglemode} />
           <Routes>
-             <Route path="/" element={Home} />
-            <Route path="/About" element={About} />
-            <Route path="/Services" element={Services} />
-            <Route path="/Contact" element={Contact sendMessage={sendMessage}}/>
+             <Route path="*" element={<Home />} />
+            <Route path="/About" element={<About />} />
+            <Route path="/Services" element={<Services />} />
+            <Route path="/Contact" element={<Contact sendMessage={sendMessage}/>}/>
           </Routes>
           <Footer />
         </>
