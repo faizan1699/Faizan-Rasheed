@@ -3,7 +3,7 @@ import React from 'react'
 export default function Footer(props) {
     return (
         <>
-            <hr className='mt-5' />
+            <hr/>
             <div className={`container-fluid  bg-${props.mode === '#d1d2d6' ? "light" : "#d1d2d6"} `} id='footer'>
                 <div className='container ' >
                     <div className="row " id='footer-content'>
@@ -25,7 +25,6 @@ export default function Footer(props) {
                                 <i className="me-2 fa-brands  fa-solid fa-instagram"></i>
                                 <p>INSTAGRAM</p>
                             </div>
-
 
                         </div>
                         <div className="col-md-6 mt-4 ">
