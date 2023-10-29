@@ -5,7 +5,7 @@ export default function Footer(props) {
         <>
             <hr className='mt-5' />
             <div className={`container-fluid  bg-${props.mode === '#d1d2d6' ? "light" : "#d1d2d6"} `} id='footer'>
-                <div className='container py-5' >
+                <div className='container ' >
                     <div className="row " id='footer-content'>
                         <div className="col-md-3">
                             <h2 className='fw-bold my-4'>Social Links</h2>
